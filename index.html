@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wikipedia Viewer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Wikipedia Viewer</h1>
+
+    <form id="search-form" autocomplete="off" class="search">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Search Wikipedia&hellip;"
+        aria-label="Search Wikipedia"
+      />
+      <button type="submit" id="search-btn">Search</button>
+    </form>
+
+    <button id="random-btn" type="button" class="random">
+      Show me a random article
+    </button>
+
+    <section class="random-box" id="random-box" aria-live="polite"></section>
+
+    <section class="results" aria-label="Search results">
+      <h2>Results</h2>
+      <ul id="results"></ul>
+    </section>
+
+    <footer class="foot">
+      Data: Wikipedia (MediaWiki API). Falls back to bundled entries when offline.
+    </footer>
+  </main>
+
+  <script src="logic.js"></script>
+  <script src="demo-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

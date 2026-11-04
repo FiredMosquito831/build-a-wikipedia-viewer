@@ -1,0 +1,17 @@
+PASS  search URL has opensearch + origin + limit
+PASS  search URL encodes spaces
+PASS  random URL is a valid query
+PASS  article URL turns spaces into underscores
+PASS  article URL encodes special chars
+PASS  opensearch -> 4 entries  [len 4]
+PASS  first entry title + description + url
+PASS  missing description/thumb degrade to empty
+PASS  article URLs built per entry
+PASS  random -> title
+PASS  random -> canonical URL
+PASS  parseRandom of empty payload -> null
+PASS  demo entries parse through the same entry shape
+PASS  demo random has a title + url
+
+SUMMARY: 14 passed, 0 failed / 14
+PASS

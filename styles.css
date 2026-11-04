@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: #f7f7f9;
+  color: #1c1c22;
+}
+
+.wrap {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 1.7rem;
+}
+
+.search {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search input {
+  flex: 1;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid #c9c9d2;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.search button {
+  padding: 0.65rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  background: #3366cc;
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.random {
+  margin: 0.75rem 0;
+  padding: 0.6rem 1rem;
+  border: 1px solid #3366cc;
+  background: #fff;
+  color: #3366cc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.random-box {
+  min-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.random-box .rand-title {
+  color: #3366cc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.note {
+  color: #6b6b7a;
+  font-size: 0.85rem;
+}
+
+.results h2 {
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+}
+
+#results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#results .result {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e2e2ea;
+}
+
+#results .title {
+  display: block;
+  color: #3366cc;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+#results .title:hover {
+  text-decoration: underline;
+}
+
+#results .desc {
+  margin: 0.25rem 0 0;
+  font-size: 0.85rem;
+  color: #55555f;
+}
+
+.foot {
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+  color: #8a8a97;
+}

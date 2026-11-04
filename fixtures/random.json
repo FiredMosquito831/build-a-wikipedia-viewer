@@ -1,0 +1,11 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "random": [
+      {
+        "ns": 0,
+        "title": "Cat"
+      }
+    ]
+  }
+}
